@@ -15,8 +15,8 @@ object SecondSwingApp extends SimpleSwingApplication {
     object ledVolt extends TextField("2.07")
     object transistorOnVolt extends TextField("1.0")
     object ledResistence extends TextField
-    object offResistence extends TextField("1900")
-    object onResistence extends TextField("7300")
+    object offResistence extends TextField("17000")
+    object onResistence extends TextField("60000")
     object calculate extends Button { text = "Calculate" }
     object result1 extends Label("Result 1: ")
     object result2 extends Label("Result 2:")
